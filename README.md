@@ -1,31 +1,29 @@
-# Sistem Donasi Mahasiswa (Galang Dana)
+=== SIMULASI SISTEM DONASI MAHASISWA ===
 
-## Deskripsi
-Proyek ini merupakan implementasi sistem donasi mahasiswa berbasis console dengan menggunakan bahasa pemrograman Kotlin. Sistem ini dirancang untuk mensimulasikan proses penggalangan dana, di mana donatur dapat memberikan donasi kepada suatu kampanye dengan memperhatikan aturan bisnis yang berlaku.
+--- Haekal mencoba berdonasi Rp200000.0 ke kampanye Galang Dana Beasiswa Mahasiswa ---
+✅ SUKSES: Donasi berhasil diproses.
+Sisa saldo Haekal: Rp300000.0
+Dana terkumpul kampanye: Rp200000.0
 
-## Tujuan
-Tujuan dari pembuatan proyek ini adalah untuk menerapkan konsep Pemrograman Berorientasi Objek (Object-Oriented Programming), khususnya pada aspek enkapsulasi, serta memahami bagaimana pengelolaan data dilakukan secara aman dan terstruktur.
+--- Rahmad mencoba berdonasi Rp150000.0 ke kampanye Galang Dana Beasiswa Mahasiswa ---
+❌ GAGAL: Saldo Rahmad tidak mencukupi. Saldo saat ini: Rp100000.0
 
-## Entitas Sistem
-Beberapa entitas utama yang digunakan dalam sistem ini antara lain:
-- Donatur  
-- Kampanye Donasi  
-- Pengelola  
+--- Haekal mencoba berdonasi Rp300000.0 ke kampanye Galang Dana Beasiswa Mahasiswa ---
+✅ SUKSES: Donasi berhasil diproses.
+Sisa saldo Haekal: Rp0.0
+Dana terkumpul kampanye: Rp500000.0
 
-## Aturan Bisnis
-Adapun aturan bisnis yang diterapkan dalam sistem ini adalah sebagai berikut:
-- Donasi hanya dapat dilakukan jika saldo donatur mencukupi.  
-- Jika donasi berhasil, maka saldo donatur akan berkurang sesuai nominal donasi.  
-- Total dana pada kampanye tidak boleh melebihi target maksimal yang telah ditentukan.  
+--- Haekal mencoba berdonasi Rp600000.0 ke kampanye Galang Dana Beasiswa Mahasiswa ---
+❌ GAGAL: Saldo Haekal tidak mencukupi. Saldo saat ini: Rp0.0
 
-## Teknologi yang Digunakan
-- Bahasa Pemrograman: Kotlin  
-- Tools: IntelliJ IDEA / Kotlin Playground  
+--- Rahmad mencoba berdonasi Rp100000.0 ke kampanye Galang Dana Beasiswa Mahasiswa ---
+✅ SUKSES: Donasi berhasil diproses.
+Sisa saldo Rahmad: Rp0.0
+Dana terkumpul kampanye: Rp600000.0
 
-## Cara Menjalankan Program
-1. Buka project menggunakan IntelliJ IDEA atau Kotlin Playground.  
-2. Jalankan file utama (main.kt).  
-3. Hasil simulasi akan ditampilkan pada console.  
-
-## Catatan
-Proyek ini dibuat sebagai bagian dari tugas Ujian Tengah Semester (UTS) mata kuliah Pemrograman Berorientasi Objek.
+=== STATUS KAMPANYE DONASI ===
+Pengelola      : Rubian
+Judul Kampanye : Galang Dana Beasiswa Mahasiswa
+Dana Terkumpul : Rp600000.0
+Target Maksimal: Rp1000000.0
+Sisa Target    : Rp400000.0
